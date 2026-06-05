@@ -1,22 +1,22 @@
 class Alius < Formula
   desc "LLM Agent CLI - Software Self-Evolution"
   homepage "https://github.com/AliusTech/alius"
-  version "0.6.9"
+  version "0.6.10"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/AliusTech/alius/releases/download/v0.6.9/alius-macos-arm64.tar.gz"
-      sha256 "91b4da20f9907577d8292f47363c9b17ac08562debc9fddc4ab591d1e6f939a5"
+      url "https://github.com/AliusTech/alius/releases/download/v0.6.10/alius-macos-arm64.tar.gz"
+      sha256 "2a79843d492a2d0ad7c39a6c629b5c6aab8825dad24d581e0534f2283dd2a397"
     else
-      url "https://github.com/AliusTech/alius/releases/download/v0.6.9/alius-macos-x64.tar.gz"
-      sha256 "743dd888ea7ef2461c14704927368e8b02abbf7d93eb6e4433f725d1b95a1465"
+      url "https://github.com/AliusTech/alius/releases/download/v0.6.10/alius-macos-x64.tar.gz"
+      sha256 "7e6dba3c1d9810c749a18c22e874e95aaaee387c2f224d67fdc69d12385ca19d"
     end
   end
 
   on_linux do
-    url "https://github.com/AliusTech/alius/releases/download/v0.6.9/alius-linux-x64.tar.gz"
-    sha256 "f6b0138dd77a7018f9fa92e6ab73def9fa4bb988bff31a392257fec0928a6f6b"
+    url "https://github.com/AliusTech/alius/releases/download/v0.6.10/alius-linux-x64.tar.gz"
+    sha256 "7659d9b2d599ce8b3659707a8d3e0d93490cfa2ca6b61167057e2fb7ae94614d"
   end
 
   def install
